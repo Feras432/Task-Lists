@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+class Main {
+  public static void main(String[] args) {
+    List<String> songs = new ArrayList<>();
+    songs.add("Skyfall");
+    songs.add("Die for You");
+    songs.add("Hurt You");
+    songs.add("Till I Collapse");
+    songs.add("Tell Em");
+    songs.remove(2);
+    for(String song : songs){
+      
+      System.out.println(song);
+      
+    }
+
+    
+  }
+
+  
+}
